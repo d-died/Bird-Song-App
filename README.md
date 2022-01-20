@@ -2,16 +2,16 @@
 ===
 ## Project Description
 In my app, users will be able to experiences bird sounds from around the world. Users will be able to select a certain country and will be able to listen to a (short) field recording of a bird from that country. 
----
+
 ## Wireframe
 
 ===
 
 ### Home
-![Home-Screen](home.png "Home")
+![Home-Screen](Home.png "Home")
 
 ### Bird Details
-![Bird-Details](details.png "Details")
+![Bird-Details](Details.png "Details")
 
 ===
 
@@ -36,7 +36,9 @@ In my app, users will be able to experiences bird sounds from around the world. 
 [Bird Sound (Brazil) API](https://xeno-canto.org/api/2/recordings?query=cnt:brazil)
 
 **Bird Call Response**
-=="recordings": [
+
+```
+{ "recordings": [
 {
 "id": "510934",
 "gen": "Rhea",
@@ -140,12 +142,12 @@ In my app, users will be able to experiences bird sounds from around the world. 
 ],
 "rmk": "ID certainty 95%. (Archiv. tape 371 side B track 33 seq. A)",
 "bird-seen": "unknown",
-"playback-used": "unknown"
-},==
-
+}
+}
+```
 === 
 
 ## Component Hierarchy
 
-![Component-Hierarchy](components.png "Components")
+![Component-Hierarchy](Components.png "Components")
 
