@@ -1,0 +1,35 @@
+{
+    "id": "510934",
+    "gen": "Rhea",
+    "sp": "americana",
+    "ssp": "",
+    "en": "Greater Rhea",
+    "rec": "GABRIEL LEITE",
+    "cnt": "Brazil",
+    "loc": "Barra do Quaraí, Rio Grande do Sul",
+    "lat": "-30.2037",
+    "lng": "-57.5145",
+    "alt": "50",
+    "type": "adult, call",
+    "url": "//xeno-canto.org/510934",
+    "file": "https://xeno-canto.org/510934/download",
+    "file-name": "XC510934-Rhea americana_espinilho_1241.mp3",
+    "sono": {
+    "small": "//xeno-canto.org/sounds/uploaded/TGBFXDVERJ/ffts/XC510934-small.png",
+    "med": "//xeno-canto.org/sounds/uploaded/TGBFXDVERJ/ffts/XC510934-med.png",
+    "large": "//xeno-canto.org/sounds/uploaded/TGBFXDVERJ/ffts/XC510934-large.png",
+    "full": "//xeno-canto.org/sounds/uploaded/TGBFXDVERJ/ffts/XC510934-full.png"
+    },
+    "lic": "//creativecommons.org/licenses/by-nc-sa/4.0/",
+    "q": "A",
+    "length": "0:04",
+    "time": "07:00",
+    "date": "2019-11-25",
+    "uploaded": "2019-12-07",
+    "also": [
+    ""
+    ],
+    "rmk": "",
+    "bird-seen": "no",
+    "playback-used": "no"
+    }
