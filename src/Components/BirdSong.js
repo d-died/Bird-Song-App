@@ -1,10 +1,18 @@
-import React from 'react'
+import React, { useState } from 'react'
 // import { Button } from 'react-router-dom'
+import data from './test.json'
 
 const BirdSong = () => {
 
-    const call = new Audio('https://xeno-canto.org/sounds/uploaded/TGBFXDVERJ/XC510934-Rhea%20americana_espinilho_1241.mp3')
+    const [ birdData, setBirdData ] = useState(data)
+    const sono = (birdData.sono.full.split('ffts')[0])
 
+    const fileName = birdData['file-name'].split(" ").join("%20")
+    console.log(fileName)
+  
+    const soundFileURL = `https://${sono}${fileName}`
+  
+    const call = new Audio(soundFileURL)
     const playCall = () => {
         call.play()
     }
