@@ -25,6 +25,7 @@ In my app, users will be able to experiences bird sounds from around the world. 
 
 ### Post MVP Stretch Goals
 
+- As a user, I will see a carousel of bird images on the home page.
 - As a user, I can click on a dropdown box on the home page and select from various countries. 
 - As a user, I will see a collection of different bird sounds after selecting a country. 
 - As a user, I will also see a corresponding image of each bird.

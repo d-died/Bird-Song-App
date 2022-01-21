@@ -1,4 +1,6 @@
 import React from "react";
+import App from '../App'
+import { Link } from 'react-router-dom'
 
 const NavBar = () => {
 
@@ -8,7 +10,9 @@ const NavBar = () => {
     return(
         <nav>
             <h2>Birdy</h2>
-            {/* this will be a link */}
+            <Link to='/'> 
+                Home 
+            </Link>
         </nav>
     )
 }
