@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom'
 
 const BirdCard = () => {
     //Each card will be a container
@@ -9,7 +10,11 @@ const BirdCard = () => {
 
     return(
         <div>
-
+            <Link to='/bird'>
+                <div className='card'>
+                    <h2>Brazil</h2>
+                </div>
+            </Link>
         </div>
     )
 
